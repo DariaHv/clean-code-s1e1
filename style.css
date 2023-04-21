@@ -2,7 +2,7 @@
 body {
   background-color: #f8f8f8;
   color: #333;
-  font-family: lato, sans-serif;
+  font-family: Lato, sans-serif;
 }
 
 .aaa {
@@ -55,7 +55,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  color: #3a3a3a;
+  color: #3a33a;
 }
 /* Heading */
 h3,
@@ -77,7 +77,7 @@ input[type="text"] {
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: lato, sans-serif;
+  font-family: Lato, sans-serif;
   color: #888;
 }
 input[type="text"]:focus {
@@ -125,7 +125,7 @@ button.delete img {
   transition: transform 200ms ease-in;
 }
 button.delete img:hover {
-  transform: rotatez(0);
+  transform: rotate(0);
 }
 
 /* Completed */
@@ -139,11 +139,11 @@ ul li input[type=text] {
   display:none
 }
 
-ul li.editmode input[type=text] {
+ul li.editMode input[type=text] {
   display:inline-block;
   width:224px
 }
 
-ul li.editmode label {
+ul li.editMode label {
   display:none;
 }
